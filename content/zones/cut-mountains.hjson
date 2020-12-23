@@ -1,0 +1,36 @@
+name: Cut Mountains
+description: These mountains have been bombed and destroyed, revealing abnoramlly large pockets of titanium and chalk. Mine the chalk and get back to safety.
+loadout: basicFoundation
+startingItems: [
+  copper/350
+  lead/150
+]
+conditionWave: 10
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: ruinousShores
+    wave: 15
+  }
+  {
+    type: ZoneWave
+    zone: craters
+    wave: 15
+  }
+  {
+    type: Unlock
+    block: pneumatic-drill
+  }
+  {
+    type: Unlock
+    block: titanium-wall
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  titanium
+  chalk
+]

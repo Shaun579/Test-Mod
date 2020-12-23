@@ -1,0 +1,6 @@
+name: "testmod"
+displayName: "[red]Test [gray]Mod"
+author: "[gray]e[]ggd[gray]o[]g"
+description: "I wish I was [red]dead []lol"
+version: "1.2"
+minGameVersion: "120"

@@ -1,0 +1,6 @@
+type: material
+name: Cobalt
+description: A strong metal, capable of creating incredibly fortified machines and defenses.
+hardness: 4
+cost: 2
+color: 0048ff

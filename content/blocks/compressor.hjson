@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "Compressor"
+description: "Takes the minerals of sand and crushes it all together to form scrap."
+itemCapacity: 10
+outputItem: {
+  item: scrap
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: false
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 1
+  item: sand
+}
+requirements: [
+  lead/50
+  copper/30
+  graphite/20
+]
+category: crafting
+research: coal-centrifuge
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

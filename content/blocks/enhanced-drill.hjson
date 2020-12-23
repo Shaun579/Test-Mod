@@ -1,0 +1,13 @@
+name: Enhanced Drill
+description: A better mechanical drill, it just drills faster.
+type: Drill
+size: 2
+tier: 1
+drillTime: 100
+requirements: [
+  chalk/30
+  copper/10
+  lead/20
+]
+category: production
+research: mechanical-drill

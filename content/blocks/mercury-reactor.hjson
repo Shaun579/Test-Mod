@@ -1,0 +1,27 @@
+type: SingleTypeGenerator
+name: Mercury Reactor
+description: Takes mercury and coal and combines them to create large amounts of power. Also basically a safer thorium reactor.
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+powerProduction: 4
+consumes: {
+  items: {
+    items: [
+      coal/3
+    ]
+  }
+  liquid: {
+    liquid: mercury
+    amount: 0.5
+  }
+}
+requirements: [
+  titanium/40
+  silicon/25
+  plasma-shell/10
+  chalk/30
+]
+category: power
+research: steam-generator

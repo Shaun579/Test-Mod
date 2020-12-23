@@ -1,0 +1,8 @@
+name: Mercury
+description: Quite sensitive to heat. Can produce energy.
+temperature: 0.25
+viscosity: 1
+flammability: 1.2
+explosiveness: 1.2
+effect: freezing
+color: 948d8d

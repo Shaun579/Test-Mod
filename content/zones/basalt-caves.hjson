@@ -1,0 +1,49 @@
+name: Basalt Caves
+description: Deep caves just past the desert, containing a number of metals including cobalt. This cobalt is some of the strongest metal on this planet, collect it, research it, buid with it.
+loadout: basicFoundation
+startingItems: [
+  copper/500
+  lead/250
+  titanium/200
+  thorium/100
+  graphite/300
+]
+conditionWave: 10
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: tarFields
+    wave: 20
+  }
+  {
+    type: ZoneWave
+    zone: stainedMountains
+    wave: 30
+  }
+  {
+    type: Unlock
+    block: thorium-wall-large
+  }
+  {
+    type: Unlock
+    block: ripple
+  }
+  {
+    type: Unlock
+    block: blast-drill
+  }
+  {
+    type: Unlock
+    block: compressor
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  sand
+  titanium
+  thorium
+  cobalt
+]

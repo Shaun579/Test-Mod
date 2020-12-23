@@ -1,0 +1,57 @@
+name: Energy Plant
+description: The enemies have built an energy plant, their experiments have inexplicably increased the ore around it amd evaporated most water nearby. Collect the surrounding ore and leave, this place is not safe at all.
+loadout: basicFoundation
+startingItems: [
+  copper/400
+  lead/300
+  titanium/100
+  silicon/200
+]
+conditionWave: 10
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: desertWastes
+    wave: 40
+  }
+  {
+    type: ZoneWave
+    zone: groundZero
+    wave: 20
+  }
+  {
+    type: ZoneWave
+    zone: frozenForest
+    wave: 20
+  }
+  {
+    type: Unlock
+    block: salvo
+  }
+  {
+    type: Unlock
+    block: laser-drill
+  }
+  {
+    type: Unlock
+    block: solar-panel-large
+  }
+  {
+    type: Unlock
+    block: plasma-constructor
+  }
+  {
+    type: Unlock
+    block: alloy-smelter
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  sand
+  titanium
+  thorium
+  scrap
+]

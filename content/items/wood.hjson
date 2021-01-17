@@ -1,0 +1,8 @@
+type: material
+name: Wood
+description: It's just wood. Can make for affordable emergency defense and can make helpful production and transportation machines.
+hardness: 1
+flammability: 0.3
+cost: 1
+color: 977358
+research: copper

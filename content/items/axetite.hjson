@@ -1,0 +1,7 @@
+type: material
+name: Axetite
+description: Rare metal, barely stronger than titanium and has no neutrons... for some reason.
+hardness: 3
+cost: 5
+color: ff0000
+research: promethium

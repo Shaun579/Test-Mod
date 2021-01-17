@@ -1,0 +1,7 @@
+type: material
+name: Tungsten
+description: A sturdy metal able of creating many things. Almost just better copper.
+hardness: 2
+cost: 3
+color: 279199
+research: lead

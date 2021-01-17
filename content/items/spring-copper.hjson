@@ -1,0 +1,7 @@
+type: material
+name: Spring Copper
+description: An alloy with too many alternate names. It's an incredibly useful material for liquids.
+hardness: 3
+cost: 3
+color: FF5A28
+research: nickel

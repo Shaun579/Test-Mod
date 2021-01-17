@@ -1,0 +1,7 @@
+type: material
+name: Nickel
+description: A metal that can't really do much. Unless you like conduits.
+hardness: 2
+cost: 4
+color: 626B6B
+research: lead

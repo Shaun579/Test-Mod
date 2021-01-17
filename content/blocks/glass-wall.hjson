@@ -1,6 +1,0 @@
-type: staticWall
-name: Glass Wall
-breakable: false
-variants: 1
-alwaysReplace: false
-solid: true

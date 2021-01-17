@@ -1,6 +1,0 @@
-type: floor
-name: Mineral Water
-variants: 1
-playerUnmineable: true
-placeableOn: false
-isLiquid: true

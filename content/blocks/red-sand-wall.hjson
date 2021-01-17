@@ -1,6 +1,0 @@
-type: staticWall
-name: Red Sand Wall
-breakable: false
-variants: 2
-alwaysReplace: false
-solid: true

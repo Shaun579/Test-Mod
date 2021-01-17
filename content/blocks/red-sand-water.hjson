@@ -1,5 +1,0 @@
-type: floor
-name: Red Sand Water
-variants: 1
-playerUnmineable: true
-liquidDrop: water

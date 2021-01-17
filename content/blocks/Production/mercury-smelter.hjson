@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Mercury Smelter
+description: Takes several minerals and burns them into mercury.
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 5
+updateEffect: ripple
+consumes: {
+  power: 1.0
+  items: {
+    items: [
+      sand/2
+      lead/1
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.4
+    }
+}
+requirements: [
+  lead/20
+  titanium/30
+  thorium/10
+  silicon/20
+]
+category: crafting
+research: graphite-press
+idleSound: drill
+idleSoundVolume: 0.5
+outputLiquid: mercury/1

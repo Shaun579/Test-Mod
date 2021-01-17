@@ -1,0 +1,11 @@
+name: Spring Copper Wall
+description: Much like the plastanium wall, just weaker and easier to mass produce.
+type: Wall
+absorbLasers: true
+health: 400
+size: 1
+requirements: [
+  spring-copper/6
+]
+category: defense
+research: copper-wall

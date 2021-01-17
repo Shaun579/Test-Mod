@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Axetite Forge
+description: Takes several minerals and burns them into mercury.
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 5
+updateEffect: ripple
+consumes: {
+  power: 1.0
+  items: {
+    items: [
+      titanium/2
+      sand/1
+      copper/2
+      promethium/3
+    ]
+  }
+}
+requirements: [
+  plasma-shell/20
+  lead/20
+  titanium/15
+  copper/20
+  silicon/10
+]
+category: crafting
+research: kiln
+idleSound: respawnimg
+idleSoundVolume: 0.5
+outputItem: axetite/1

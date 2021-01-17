@@ -1,0 +1,18 @@
+name: Large Ion Wall
+description: A mega-charged wall made of plasma and promethium. This thing is like a combination of phase and surge walls in one. Spans multiple tiles.
+type: Wall
+lightningChance: 0.5
+lightningDamage: 25
+lightningColor: 00ff00
+chanceDeflect: 9
+flashHit: true
+flashColor: e3fff1
+deflectSound: pew
+health: 4800
+size: 2
+requirements: [
+  plasma-shell/8
+  promethium/20
+]
+category: defense
+research: ion-wall

@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: "Purifier"
+description: "Takes scrap, purifies it, and fixes it together to makes heaps of wood."
+itemCapacity: 10
+outputItem: {
+  item: wood
+  amount: 5
+}
+size: 2
+hasLiquids: false
+craftTime: 3
+updateEffect: smeltsmoke
+consumes: {
+  item: scrap
+}
+requirements: [
+	copper/40
+	lead/10
+]
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

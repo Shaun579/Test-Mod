@@ -1,0 +1,6 @@
+type: staticWall
+name: Glass Wall
+breakable: false
+fillsTile: false
+alwaysReplace: false
+solid: true

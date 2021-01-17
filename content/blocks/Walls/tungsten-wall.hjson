@@ -1,0 +1,10 @@
+name: Tungsten Wall
+description: A wall made of tungsten, a slight upgrade to copper.
+type: Wall
+health: 380
+size: 1
+requirements: [
+  tungsten/6
+]
+category: defense
+research: copper-wall-large

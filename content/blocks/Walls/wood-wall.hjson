@@ -1,0 +1,10 @@
+name: Wood Wall
+description: A wood wall. Cheap, but easy to mass produce. Just weaker than copper.
+type: Wall
+health: 300
+size: 1
+requirements: [
+  wood/6
+]
+category: defense
+research: duo

@@ -1,0 +1,16 @@
+name: Large Axetite Wall
+description: If titanium had a baby with surge alloys. Spans multiple tiles.
+type: Wall
+lightningChance: 0.3
+lightningDamage: 25
+lightningColor: ff0011
+flashHit: true
+flashColor: 990000
+deflectSound: pew
+health: 4800
+size: 2
+requirements: [
+  axetite/24
+]
+category: defense
+research: axetite-wall

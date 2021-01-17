@@ -1,0 +1,16 @@
+name: Axetite Wall
+description: If titanium had a baby with surge alloys.
+type: Wall
+lightningChance: 0.3
+lightningDamage: 10
+lightningColor: ff0011
+flashHit: true
+flashColor: 990000
+deflectSound: pew
+health: 680
+size: 1
+requirements: [
+  axetite/6
+]
+category: defense
+research: plastanium-wall

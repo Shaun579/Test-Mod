@@ -1,0 +1,10 @@
+type: LiquidBridge
+name: Spring Bridge Conduit
+range: 10
+requirements: [
+	spring-copper/5
+	metaglass/5
+	nickel/10
+]
+category: liquid
+research: spring-conduit

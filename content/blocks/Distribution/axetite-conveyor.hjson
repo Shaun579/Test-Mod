@@ -1,0 +1,10 @@
+type: ArmoredConveyor
+name: Axetite conveyor
+description: Just as good as the nuclear conveyor, however, it's more explosive and can't take input from the sides like the armored conveyor.
+baseExplosiveness: 1.5
+requirements: [
+  axetite/2
+]
+category: distribution
+speed: 0.15
+research: armored-conveyor

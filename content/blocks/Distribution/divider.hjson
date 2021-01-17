@@ -1,0 +1,13 @@
+type: Router
+name: Divider
+description: Distributes input items to 11 output directions equally.
+itemCapacity: 30
+size: 3
+requirements: [
+  copper/5
+  lead/5
+  titanium/5
+]
+category: distribution
+speed: 8
+research: distributor

@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: "Spring Copper Compressor"
+description: "Takes copper and nickel and compresses them to form the alloy spring copper. This will give you a huge advantage in the liquid tab."
+itemCapacity: 10
+outputItem: {
+  item: spring-copper
+  amount: 2
+}
+size: 2
+hasPower: true
+hasLiquids: false
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 5
+  items: {
+	items: [
+		copper/1
+		nickel/1
+		]
+	}
+}
+requirements: [
+  lead/20
+  copper/50
+  graphite/10
+  silicon/20
+  nickel/10
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

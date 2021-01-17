@@ -1,0 +1,27 @@
+name: Charged Drill
+description: Size of the laser drill, power of the airblast drill but explosiveness of the thorium recator.
+type: Drill
+baseExplosiveness: 20
+warmupSpeed: 0.005
+drawRim: true
+hasLiquids: true
+size: 3
+tier: 4
+drillTime: 100
+heatColor: 00ff33
+consumes: {
+	liquid:{
+		liquid: water
+		amount: 16
+		booster: true
+		optional: true
+	}
+}
+requirements: [
+  promethium/20
+  axetite/10
+  thorium/10
+  titanium/15
+]
+category: production
+research: laser-drill

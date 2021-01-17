@@ -1,0 +1,46 @@
+type: ItemTurret
+size: 2
+name: Trio
+health: 500
+description: Duo's big brother. Uses the same ammo but hits like a truck compared to it.
+range: 160
+inaccuracy: 1
+spread: 0
+shootSound: shoot
+reloadTime: 2
+ammoTypes: {
+  copper: {
+    damage: 36
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+    }
+  graphite: {
+    speed: 0.6
+    damage: 72
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 4
+    }
+  pyratite: {
+    damage: 44
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+    statusEffect: burning
+    }
+  silicon: {
+    speed: 1.5
+    damage: 48
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    homingPower: 0.8
+    ammoMultiplier: 5
+    }
+}
+requirements: [
+  tungsten/35
+]
+
+category: turret
+research: duo

@@ -1,0 +1,13 @@
+type: Conduit
+name: Spring Conduit
+botColor: AA1F00
+leaks: false
+hasLiquids: true
+liquidCapacity: 20.0
+requirements: [
+	spring-copper/2
+	metaglass/1
+	copper/2
+]
+category: liquid
+research: pulse-conduit

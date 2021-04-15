@@ -10,3 +10,5 @@ Update 1: added a ton of stuff, but some things aren't working properly
 - mineral water, red sand water and rubble all have the oh no texture
 - both turrets do not work properly
 - most custom items and blocks aren't even available due to there being no way to mine the required items
+
+Update 2: Discontinued

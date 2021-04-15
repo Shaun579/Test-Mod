@@ -12,3 +12,5 @@ Update 1: added a ton of stuff, but some things aren't working properly
 - most custom items and blocks aren't even available due to there being no way to mine the required items
 
 Update 2: Discontinued
+
+if anyone asks, I will update the files to have every change ive made since this version (including new planets, more materials, more maps and too much stuff in general)
